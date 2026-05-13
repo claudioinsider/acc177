@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Política de Privacidade | STELLET AUTOPECAS</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Exo+2:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--primary:#0fa8a0;--primary-dark:#0c857e;--primary-glow:#2dd4cc;--bg-deep:#070d0d;--bg-deeper:#0d1515;--bg-dark:#152020;--mid:#1e3535;--steel:#6a9090;--white:#eaf4f4;--white-dim:rgba(240,240,240,0.72);--white-faint:rgba(240,240,240,0.10);--font-display:'Rajdhani',serif;--font-body:'Source Sans Pro',sans-serif;--font-narrow:'Exo 2',sans-serif}
+    html{scroll-behavior:smooth}body{font-family:var(--font-body);background:var(--bg-deep);color:var(--white);overflow-x:hidden}
+    ::-webkit-scrollbar{width:6px}::-webkit-scrollbar-track{background:var(--bg-deeper)}::-webkit-scrollbar-thumb{background:var(--primary);border-radius:3px}
+    nav{position:fixed;top:0;left:0;right:0;z-index:1000;display:flex;justify-content:space-between;align-items:center;padding:0 4vw;height:68px;background:rgba(6,8,12,0.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,0.08);transition:background 0.3s}
+    .nav-logo{display:flex;align-items:center;gap:12px;text-decoration:none}
+    .nav-logo-badge{width:38px;height:38px;background:var(--primary);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:18px;color:white;font-weight:900;border-radius:4px}
+    .nav-logo-text{font-family:var(--font-display);font-size:1.3rem;color:var(--white);letter-spacing:1px}.nav-logo-text span{color:var(--primary)}
+    .nav-links{display:flex;gap:2.2rem;list-style:none}
+    .nav-links a{font-family:var(--font-narrow);font-size:0.85rem;font-weight:500;color:var(--steel);text-decoration:none;letter-spacing:1.5px;text-transform:uppercase;transition:color 0.25s}.nav-links a:hover{color:var(--primary-glow)}
+    .page-header{padding:130px 4vw 70px;background:radial-gradient(ellipse 60% 50% at 60% 50%,color-mix(in srgb,#0fa8a0 20%,transparent) 0%,transparent 70%),linear-gradient(135deg,#070d0d 0%,#0d1515 50%,#070d0d 100%);border-bottom:1px solid rgba(255,255,255,0.05);position:relative;overflow:hidden}
+    .page-header::before{content:'';position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.03) 1px,transparent 1px);background-size:60px 60px;pointer-events:none}
+    .page-header-inner{position:relative;z-index:1;max-width:860px;margin:0 auto}
+    .page-header-tag{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.15);padding:0.35rem 1rem;border-radius:2px;font-family:var(--font-narrow);font-size:0.75rem;font-weight:700;color:var(--primary-glow);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:1.2rem}
+    .page-header h1{font-family:var(--font-display);font-size:clamp(2rem,5vw,3.5rem);color:var(--white);margin-bottom:0.8rem;letter-spacing:1px}
+    .page-header-cnpj{font-size:0.88rem;color:var(--white-dim)}.page-header-cnpj strong{color:var(--primary-glow)}
+    .content{max-width:860px;margin:0 auto;padding:4rem 2rem}
+    .update-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.12);padding:0.4rem 1rem;font-family:var(--font-narrow);font-size:0.78rem;color:var(--primary-glow);margin-bottom:2.5rem}
+    .card{background:var(--bg-dark);border:1px solid var(--mid);padding:2rem;margin-bottom:1.5rem;position:relative;transition:border-color 0.25s}
+    .card::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:var(--primary);transform:scaleX(0);transform-origin:left;transition:transform 0.4s ease}
+    .card:hover{border-color:rgba(255,255,255,0.15)}.card:hover::before{transform:scaleX(1)}
+    .card-header{display:flex;align-items:center;gap:12px;margin-bottom:1rem}
+    .card-number{font-family:var(--font-display);font-size:3rem;color:rgba(255,255,255,0.06);line-height:1;margin-right:4px}
+    .card h2{font-family:var(--font-narrow);font-size:1.1rem;font-weight:700;color:var(--white);letter-spacing:0.5px}
+    .card p{font-size:0.92rem;color:var(--white-dim);line-height:1.75;margin-bottom:0.6rem}.card p:last-child{margin-bottom:0}
+    .card ul{padding-left:1.4rem;margin-top:0.4rem}.card ul li{font-size:0.92rem;color:var(--white-dim);line-height:1.75;margin-bottom:0.3rem}
+    .company-block{background:rgba(255,255,255,0.04);border-left:3px solid var(--primary);padding:1rem 1.2rem;margin-top:0.8rem}
+    .company-block p{font-size:0.88rem;color:var(--white-dim);line-height:1.7}.company-block strong{color:var(--white)}
+    footer{background:#050508;padding:60px 4vw 40px;border-top:1px solid rgba(255,255,255,0.08)}
+    .footer-inner{max-width:1280px;margin:0 auto}
+    .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr;gap:4rem;padding-bottom:3rem;border-bottom:1px solid rgba(255,255,255,0.06)}
+    .footer-brand h2{font-family:var(--font-display);font-size:1.8rem;letter-spacing:1px;color:var(--white);margin-bottom:0.8rem}.footer-brand h2 span{color:var(--primary)}
+    .footer-brand p{font-size:0.88rem;color:var(--steel);line-height:1.7;max-width:320px}
+    .footer-col h4{font-family:var(--font-narrow);font-size:0.78rem;font-weight:700;color:var(--primary);letter-spacing:2.5px;text-transform:uppercase;margin-bottom:1.2rem}
+    .footer-col ul{list-style:none;display:flex;flex-direction:column;gap:0.6rem}.footer-col ul a{font-size:0.88rem;color:var(--steel);text-decoration:none;transition:color 0.25s}.footer-col ul a:hover{color:var(--primary-glow)}
+    .footer-bottom{padding-top:2rem;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1.5rem}
+    .footer-legal p{font-size:0.78rem;color:rgba(150,150,170,0.55);line-height:1.7}
+    .footer-policy-links{display:flex;gap:1.5rem}.footer-policy-links a{font-size:0.78rem;color:rgba(150,150,170,0.55);text-decoration:none;transition:color 0.25s}.footer-policy-links a:hover{color:var(--primary)}
+    @media(max-width:900px){.nav-links{display:none}.footer-top{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<nav id="navbar">
+  <a href="../" class="nav-logo">
+    <div class="nav-logo-badge">S</div>
+    <div><div class="nav-logo-text">STELLET <span>AUTOPECAS</span></div></div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="../#sobre">Sobre</a></li>
+    <li><a href="../#servicos">Serviços</a></li>
+    <li><a href="../#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="page-header-tag">🔧 Política de Privacidade</div>
+    <h1>Política de Privacidade</h1>
+    <p class="page-header-cnpj"><strong>ARLE DISTRIBUIDORA DE PECAS LTDA</strong> · CNPJ: <strong>48.301.403/0001-05</strong></p>
+  </div>
+</div>
+
+<div class="content">
+  <div class="update-badge">📅 Última atualização: 23 de abril de 2026</div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">01</span>
+      <h2>Informações Gerais</h2>
+    </div>
+    <p>Esta Política de Privacidade descreve como a <strong>ARLE DISTRIBUIDORA DE PECAS LTDA</strong>, operando sob a marca <strong>STELLET AUTOPECAS</strong>, trata os dados pessoais coletados neste site, em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018 — LGPD).</p>
+    <div class="company-block">
+      <p><strong>ARLE DISTRIBUIDORA DE PECAS LTDA</strong><br>
+      CNPJ: 48.301.403/0001-05<br>
+      R ANTONIO XAVIER MAIA, 97, VILA DIONEIA – SAO FIDELIS – RJ – CEP: 28.400-000<br>
+      Telefone: (22) 9765-3723 · E-mail: LEOSTELLET.INV@GMAIL.COM</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">02</span>
+      <h2>Dados Coletados</h2>
+    </div>
+    <p>Ao utilizar o formulário de contato deste site, podemos coletar os seguintes dados pessoais:</p>
+    <ul>
+      <li>Nome completo</li>
+      <li>Número de telefone</li>
+      <li>Endereço de e-mail</li>
+      <li>Informações sobre os produtos ou peças de interesse (modelo do veículo, tipo de peça)</li>
+      <li>Dados para cotação e pedido de peças automotivas em atacado ou varejo</li>
+      <li>Mensagens e conteúdo enviado voluntariamente pelo formulário</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">03</span>
+      <h2>Finalidade do Tratamento</h2>
+    </div>
+    <p>Os dados coletados são utilizados exclusivamente para as seguintes finalidades:</p>
+    <ul>
+      <li>Responder a solicitações de cotação e pedidos de peças automotivas</li>
+      <li>Processamento de pedidos de peças para automóveis, motocicletas e bicicletas</li>
+      <li>Estabelecer contato comercial para ofertas e disponibilidade de produtos</li>
+      <li>Suporte pós-venda e acompanhamento de pedidos</li>
+      <li>Cumprimento de obrigações legais relacionadas ao comércio atacadista</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">04</span>
+      <h2>Armazenamento e Segurança</h2>
+    </div>
+    <p>Os dados coletados são armazenados em ambiente seguro, com adoção de medidas técnicas e administrativas adequadas para proteção contra acesso não autorizado, alteração, divulgação ou destruição.</p>
+    <p>Os dados são mantidos pelo período necessário ao atendimento das finalidades descritas e às exigências legais aplicáveis, podendo ser excluídos a pedido do titular, salvo obrigação legal de retenção.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">05</span>
+      <h2>Compartilhamento de Dados</h2>
+    </div>
+    <p>A ARLE DISTRIBUIDORA DE PECAS LTDA não compartilha, vende, aluga ou cede seus dados pessoais a terceiros para fins comerciais.</p>
+    <p>O compartilhamento pode ocorrer exclusivamente nas seguintes situações:</p>
+    <ul>
+      <li>Cumprimento de obrigação legal ou regulatória</li>
+      <li>Ordem judicial ou requisição de autoridade competente</li>
+      <li>Parceiros logísticos estritamente necessários para entrega de produtos, sob cláusula de confidencialidade</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">06</span>
+      <h2>Seus Direitos (LGPD)</h2>
+    </div>
+    <p>Nos termos da Lei nº 13.709/2018, você possui os seguintes direitos em relação aos seus dados pessoais:</p>
+    <ul>
+      <li><strong>Confirmação e acesso:</strong> saber se tratamos seus dados e acessá-los</li>
+      <li><strong>Correção:</strong> solicitar a correção de dados incompletos, inexatos ou desatualizados</li>
+      <li><strong>Anonimização, bloqueio ou eliminação:</strong> de dados desnecessários ou tratados em desconformidade</li>
+      <li><strong>Portabilidade:</strong> receber seus dados em formato estruturado</li>
+      <li><strong>Revogação do consentimento:</strong> a qualquer momento, sem prejuízo da licitude do tratamento anterior</li>
+      <li><strong>Oposição:</strong> se discordar de algum tratamento realizado</li>
+    </ul>
+    <p>Para exercer seus direitos, entre em contato pelo e-mail ou telefone indicados na seção 7.</p>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">07</span>
+      <h2>Contato do Responsável</h2>
+    </div>
+    <p>Para dúvidas, solicitações ou exercício de direitos relacionados à privacidade e proteção de dados, entre em contato:</p>
+    <div class="company-block">
+      <p><strong>ARLE DISTRIBUIDORA DE PECAS LTDA (STELLET AUTOPECAS)</strong><br>
+      E-mail: LEOSTELLET.INV@GMAIL.COM<br>
+      Telefone: (22) 9765-3723<br>
+      Endereço: R ANTONIO XAVIER MAIA, 97, VILA DIONEIA – SAO FIDELIS – RJ – CEP: 28.400-000</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number">08</span>
+      <h2>Alterações desta Política</h2>
+    </div>
+    <p>Esta Política de Privacidade pode ser atualizada periodicamente para refletir mudanças em nossas práticas de tratamento de dados ou alterações na legislação aplicável.</p>
+    <p>Recomendamos que você revise esta página periodicamente. A data da última atualização estará sempre indicada no topo desta página. O uso continuado do site após as alterações constitui aceitação da política atualizada.</p>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h2>STELLET <span>AUTOPECAS</span></h2>
+        <p>Comércio por atacado de peças e acessórios novos para veículos automotores. SAO FIDELIS – RJ.</p>
+      </div>
+      <div class="footer-col"><h4>Navegação</h4><ul><li><a href="../">Início</a></li><li><a href="../#sobre">Sobre Nós</a></li><li><a href="../#servicos">Serviços</a></li><li><a href="../#contato">Contato</a></li></ul></div>
+      <div class="footer-col"><h4>Institucional</h4><ul><li><a href="../privacy/">Política de Privacidade</a></li></ul></div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <p>© 2026 <strong>ARLE DISTRIBUIDORA DE PECAS LTDA</strong> – Todos os direitos reservados.</p>
+        <p>CNPJ: <strong>48.301.403/0001-05</strong> · R ANTONIO XAVIER MAIA, 97, VILA DIONEIA, SAO FIDELIS – RJ – CEP: 28.400-000 · Tel: (22) 9765-3723</p>
+      </div>
+      <div class="footer-policy-links"><a href="../privacy/">Privacidade</a></div>
+    </div>
+  </div>
+</footer>
+<script>
+  window.addEventListener('scroll',()=>{document.getElementById('navbar').style.background=window.scrollY>50?'rgba(4,5,8,0.99)':'rgba(6,8,12,0.92)';});
+</script>
+</body>
+</html>
